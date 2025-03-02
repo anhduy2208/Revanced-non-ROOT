@@ -32,13 +32,13 @@ Download
 >
 > License owned by creator. If you like any modded app, please support the original author.
 > 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## [MicroG ReVanced:](https://github.com/ReVanced/GmsCore)
 
 [![Release](https://img.shields.io/github/v/release/ReVanced/GmsCore?label=All-arch&style=for-the-badge)](https://github.com/ReVanced/GmsCore/releases) 
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://play.google.com/store/apps/details?id=com.google.android.youtube)
 
@@ -135,7 +135,7 @@ Old patches, because latest patch not support split apks
 
 [x86_64](../../releases/download/all/youtube-x86_64-revanced-extended-android-5.apk)
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [![YouTube Music](https://img.shields.io/badge/YouTube_Music-FF0000?style=for-the-badge&logo=youtube-music&logoColor=white)](https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music)
 
@@ -160,7 +160,7 @@ Old patches, because latest patch not support split apks
 | [Arm64-v8a](../../releases/download/all/youtube-music-stable-arm64-v8a-anddea.apk)     | [Arm64-v8a](../../releases/download/all/youtube-music-beta-arm64-v8a-anddea.apk)     |
 | [Armeabi-v7a](../../releases/download/all/youtube-music-stable-armeabi-v7a-anddea.apk) | [Armeabi-v7a](../../releases/download/all/youtube-music-beta-armeabi-v7a-anddea.apk) |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://play.google.com/store/apps/details?id=com.facebook.katana&hl)
 
@@ -170,7 +170,7 @@ Old patches, because latest patch not support split apks
 | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | 
 |[Arm64-v8a & Android 11+](../../releases/download/all/facebook-arm64-v8a-revanced.apk) | [Arm64-v8a & Android 11+](../../releases/download/all/facebook-arm64-v8a-beta-revanced.apk) |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://play.google.com/store/apps/details?id=com.twitter.android)
 
@@ -183,7 +183,7 @@ Old patches, because latest patch not support split apks
 | [All Architectures](../../releases/download/all/twitter-stable-piko.apk)   | [All Architectures](../../releases/download/all/twitter-beta-piko.apk)   |
 | [Arm64-v8a](../../releases/download/all/twitter-arm64-v8a-stable-piko.apk) | [Arm64-v8a](../../releases/download/all/twitter-arm64-v8a-beta-piko.apk) |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://play.google.com/store/apps/details?id=com.instagram.android)
 
@@ -197,7 +197,7 @@ Old patches, because latest patch not support split apks
 
 [Arm64-v8a](../../releases/download/all/instagram-arm64-v8a-revanced-experiments.apk)
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### [Google Photos:](https://play.google.com/store/apps/details?id=com.google.android.apps.photos)
 
@@ -208,7 +208,7 @@ Old patches, because latest patch not support split apks
 | [Arm64-v8a](../../releases/download/all/gg-photos-arm64-v8a-revanced.apk)     | [Arm64-v8a](../../releases/download/all/gg-photos-arm64-v8a-beta-revanced.apk)     |
 | [armeabi-v7a](../../releases/download/all/gg-photos-armeabi-v7a-revanced.apk) | [armeabi-v7a](../../releases/download/all/gg-photos-armeabi-v7a-beta-revanced.apk) |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [![Messenger](https://img.shields.io/badge/Messenger-00B2FF?style=for-the-badge&logo=messenger&logoColor=white)](https://play.google.com/store/apps/details?id=com.facebook.orca)
 
@@ -218,7 +218,7 @@ Old patches, because latest patch not support split apks
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | 
 | [Arm64-v8a](../../releases/download/all/messenger-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/messenger-arm64-v8a-beta-revanced.apk) |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://play.google.com/store/apps/details?id=org.telegram.messenger)
 
@@ -232,7 +232,7 @@ Web version:
 
 [All Architectures](../../releases/download/all/telegram-web-version-revanced-experiments.apk) 
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&logo=TikTok&logoColor=white)](https://play.google.com/store/apps/details?id=com.ss.android.ugc.trill)
 
@@ -242,7 +242,7 @@ Web version:
 | ---------------------------------------------------------------------- | -------------------------------------------------------------------------   |
 | [All Architectures](../../releases/download/all/tiktok-revanced.apk)   | [All Architectures](../../releases/download/all/tiktok-beta-revanced.apk)   |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?style=for-the-badge&logo=Twitch&logoColor=white)](https://play.google.com/store/apps/details?id=tv.twitch.android.app)
 
@@ -252,7 +252,7 @@ Web version:
 | ---------------------------------------------------------------------- | --------------------------------------------------------------------------- | 
 | [All Architectures](../../releases/download/all/twitch-revanced.apk)   | [All Architectures](../../releases/download/all/twitch-beta-revanced.apk)   |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white)](https://play.google.com/store/apps/details?id=com.reddit.frontpage)
 
@@ -263,7 +263,7 @@ Web version:
 | [All Architectures](../../releases/download/all/reddit-revanced-extended.apk)   | [All Architectures](../../releases/download/all/reddit-beta-revanced-extended.apk)   |
 | [Arm64-v8a](../../releases/download/all/reddit-arm64-v8a-revanced-extended.apk) | [Arm64-v8a](../../releases/download/all/reddit-arm64-v8a-beta-revanced-extended.apk) |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [![Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white)](https://play.google.com/store/apps/details?id=com.adobe.lrmobile)
 
@@ -273,7 +273,7 @@ Web version:
 | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------- | 
 | [Arm64-v8a](../../releases/download/all/lightroom-revanced.apk)         | [Arm64-v8a](../../releases/download/all/lightroom-beta-revanced.apk)         |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [![Tumblr](https://img.shields.io/badge/Tumblr-%2336465D.svg?style=for-the-badge&logo=Tumblr&logoColor=white)](https://play.google.com/store/apps/details?id=com.tumblr)
 
@@ -284,7 +284,7 @@ Web version:
 | [All Architectures](../../releases/download/all/tumblr-revanced.apk)   | [All Architectures](../../releases/download/all/tumblr-beta-revanced.apk)   |
 | [Arm64-v8a](../../releases/download/all/tumblr-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/tumblr-arm64-v8a-beta-revanced.apk) |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [![SoundCloud](https://img.shields.io/badge/soundcloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white)](https://play.google.com/store/apps/details?id=com.soundcloud.android)
 
@@ -295,7 +295,7 @@ Web version:
 | [All Architectures](../../releases/download/all/soundcloud-revanced.apk)   | [All Architectures](../../releases/download/all/soundcloud-beta-revanced.apk)   |
 | [Arm64-v8a](../../releases/download/all/soundcloud-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/soundcloud-arm64-v8a-beta-revanced.apk) |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [![Duolingo](https://img.shields.io/badge/Duolingo-%234DC730.svg?style=for-the-badge&logo=Duolingo&logoColor=white)](https://play.google.com/store/apps/details?id=com.duolingo)
 
@@ -305,7 +305,7 @@ Web version:
 | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------   |
 | [All Architectures](../../releases/download/all/duolingo-revanced.apk)   | [All Architectures](../../releases/download/all/duolingo-beta-revanced.apk)   |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### [RAR:](https://play.google.com/store/apps/details?id=com.rarlab.rar)
 
@@ -315,7 +315,7 @@ Web version:
 | --------------------------------------------------------- | -------------------------------------------------------------- | 
 | [Arm64-v8a](../../releases/download/all/rar-revanced.apk) | [Arm64-v8a](../../releases/download/all/rar-beta-revanced.apk) |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### [Pixiv:](https://play.google.com/store/apps/details?id=jp.pxv.android)
 
@@ -325,7 +325,7 @@ Web version:
 | ------------------------------------------------------------------- | ------------------------------------------------------------------------ | 
 | [All Architectures](../../releases/download/all/pixiv-revanced.apk) | [All Architectures](../../releases/download/all/pixiv-beta-revanced.apk) |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### [Bilbili: (Chinese only)](https://play.google.com/store/apps/details?id=com.bilibili.app.in)
 
@@ -335,7 +335,7 @@ Web version:
 
 [Arm64-v8a](../../releases/download/all/bilibili-arm64-v8a-BiliRoamingM.apk )
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### [Nova Launcher:](https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher)
 
@@ -343,7 +343,7 @@ Web version:
 
 [All Architectures](../../releases/download/all/nova-launcher-indrastorms.apk)
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### [Tasker:](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)
 
@@ -351,7 +351,7 @@ Web version:
 
 [All Architectures](../../releases/download/all/tasker-indrastorms.apk)
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### [FX File Explorer:](https://play.google.com/store/apps/details?id=nextapp.fx)
 
@@ -359,7 +359,7 @@ Web version:
 
 [All Architectures](../../releases/download/all/fx-file-explorer-indrastorms.apk)
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### ⚠️ Library, resources using in this repository:
 
@@ -452,7 +452,7 @@ Web version:
 
 [APKEditor](https://github.com/REAndroid/APKEditor) - [Apache-2.0](https://github.com/REAndroid/APKEditor/blob/master/LICENSE)
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### ⚠️ Inspired by:
 
