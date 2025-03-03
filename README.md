@@ -1,4 +1,4 @@
-![](../main/docs/image/Banner.png#center)
+![](../main/docs/image/Banner2.png#center)
 
 <h4 align="center">
 They are open-source scripts for patching various apps like YouTube, YouTube Music... However, they are very difficult to use for most users. That's why I created this repository to provide an easier way.
@@ -160,7 +160,7 @@ Old patches, because latest patch not support split apks
 | [Arm64-v8a](../../releases/download/all/youtube-music-stable-arm64-v8a-anddea.apk)     | [Arm64-v8a](../../releases/download/all/youtube-music-beta-arm64-v8a-anddea.apk)     |
 | [Armeabi-v7a](../../releases/download/all/youtube-music-stable-armeabi-v7a-anddea.apk) | [Armeabi-v7a](../../releases/download/all/youtube-music-beta-armeabi-v7a-anddea.apk) |
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://play.google.com/store/apps/details?id=com.facebook.katana&hl)
 
@@ -263,7 +263,7 @@ Web version:
 | [All Architectures](../../releases/download/all/reddit-revanced-extended.apk)   | [All Architectures](../../releases/download/all/reddit-beta-revanced-extended.apk)   |
 | [Arm64-v8a](../../releases/download/all/reddit-arm64-v8a-revanced-extended.apk) | [Arm64-v8a](../../releases/download/all/reddit-arm64-v8a-beta-revanced-extended.apk) |
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 [![Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white)](https://play.google.com/store/apps/details?id=com.adobe.lrmobile)
 
@@ -273,7 +273,7 @@ Web version:
 | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------- | 
 | [Arm64-v8a](../../releases/download/all/lightroom-revanced.apk)         | [Arm64-v8a](../../releases/download/all/lightroom-beta-revanced.apk)         |
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 [![Tumblr](https://img.shields.io/badge/Tumblr-%2336465D.svg?style=for-the-badge&logo=Tumblr&logoColor=white)](https://play.google.com/store/apps/details?id=com.tumblr)
 
@@ -284,7 +284,7 @@ Web version:
 | [All Architectures](../../releases/download/all/tumblr-revanced.apk)   | [All Architectures](../../releases/download/all/tumblr-beta-revanced.apk)   |
 | [Arm64-v8a](../../releases/download/all/tumblr-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/tumblr-arm64-v8a-beta-revanced.apk) |
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 [![SoundCloud](https://img.shields.io/badge/soundcloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white)](https://play.google.com/store/apps/details?id=com.soundcloud.android)
 
@@ -295,7 +295,7 @@ Web version:
 | [All Architectures](../../releases/download/all/soundcloud-revanced.apk)   | [All Architectures](../../releases/download/all/soundcloud-beta-revanced.apk)   |
 | [Arm64-v8a](../../releases/download/all/soundcloud-arm64-v8a-revanced.apk) | [Arm64-v8a](../../releases/download/all/soundcloud-arm64-v8a-beta-revanced.apk) |
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 [![Duolingo](https://img.shields.io/badge/Duolingo-%234DC730.svg?style=for-the-badge&logo=Duolingo&logoColor=white)](https://play.google.com/store/apps/details?id=com.duolingo)
 
@@ -305,7 +305,7 @@ Web version:
 | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------   |
 | [All Architectures](../../releases/download/all/duolingo-revanced.apk)   | [All Architectures](../../releases/download/all/duolingo-beta-revanced.apk)   |
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ### [RAR:](https://play.google.com/store/apps/details?id=com.rarlab.rar)
 
@@ -315,7 +315,7 @@ Web version:
 | --------------------------------------------------------- | -------------------------------------------------------------- | 
 | [Arm64-v8a](../../releases/download/all/rar-revanced.apk) | [Arm64-v8a](../../releases/download/all/rar-beta-revanced.apk) |
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ### [Pixiv:](https://play.google.com/store/apps/details?id=jp.pxv.android)
 
@@ -325,7 +325,7 @@ Web version:
 | ------------------------------------------------------------------- | ------------------------------------------------------------------------ | 
 | [All Architectures](../../releases/download/all/pixiv-revanced.apk) | [All Architectures](../../releases/download/all/pixiv-beta-revanced.apk) |
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ### [Bilbili: (Chinese only)](https://play.google.com/store/apps/details?id=com.bilibili.app.in)
 
@@ -335,7 +335,7 @@ Web version:
 
 [Arm64-v8a](../../releases/download/all/bilibili-arm64-v8a-BiliRoamingM.apk )
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ### [Nova Launcher:](https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher)
 
@@ -343,7 +343,7 @@ Web version:
 
 [All Architectures](../../releases/download/all/nova-launcher-indrastorms.apk)
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ### [Tasker:](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)
 
@@ -351,7 +351,7 @@ Web version:
 
 [All Architectures](../../releases/download/all/tasker-indrastorms.apk)
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ### [FX File Explorer:](https://play.google.com/store/apps/details?id=nextapp.fx)
 
@@ -359,7 +359,7 @@ Web version:
 
 [All Architectures](../../releases/download/all/fx-file-explorer-indrastorms.apk)
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ### ⚠️ Library, resources using in this repository:
 
@@ -452,7 +452,7 @@ Web version:
 
 [APKEditor](https://github.com/REAndroid/APKEditor) - [Apache-2.0](https://github.com/REAndroid/APKEditor/blob/master/LICENSE)
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ### ⚠️ Inspired by:
 
