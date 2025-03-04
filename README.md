@@ -9,7 +9,7 @@ They are open-source scripts for patching various apps like YouTube, YouTube Mus
   
 </div>
 
----địt mẹ mày
+---
 
 ## ⚙️ How does this repository work?<img src="../master/docs/image/Readme.png" align="right" />
 Simply, all you need to do is choose the app you want to use from the options below: 'Revanced' or 'Revanced Extended'. Then, select your phone's CPU architecture. If you don't know what your phone's CPU architecture is, choose All Architectures. That's all there is to it.
