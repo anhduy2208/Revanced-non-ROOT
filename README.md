@@ -4,7 +4,6 @@
 They are open-source scripts for patching various apps like YouTube, YouTube Music... However, they are very difficult to use for most users. That's why I created this repository to provide an easier way.
 </h4>
 <div align="center">
-  Dit me may thang lone HUYY
 
 </div>
 
