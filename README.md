@@ -213,6 +213,16 @@ Download
 
 ---
 
+[![Threads](https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=Threads&logoColor=white)](https://play.google.com/store/apps/details?id=com.instagram.barcelona)
+
+### [Revanced:](https://github.com/revanced/revanced-patches)
+
+| Stable version                                                            | Beta version                                                                   |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | 
+| [Arm64-v8a](../../releases/download/all/threads-arm64-v8a-revanced.apk)   | [Arm64-v8a](../../releases/download/all/threads-beta-arm64-v8a-revanced.apk)   |
+
+---
+
 ### [Google Photos:](https://play.google.com/store/apps/details?id=com.google.android.apps.photos)
 
 ### [Revanced:](https://github.com/revanced/revanced-patches)
@@ -279,9 +289,10 @@ Web version:
 
 ### [Revanced:](https://github.com/revanced/revanced-patches)
 
-| Stable version                                                         | Beta version                                                                |
-| ---------------------------------------------------------------------- | --------------------------------------------------------------------------- | 
-| [All Architectures](../../releases/download/all/twitch-revanced.apk)   | [All Architectures](../../releases/download/all/twitch-beta-revanced.apk)   |
+| Stable version                                                           | Beta version                                                                   |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | 
+| [All Architectures](../../releases/download/all/twitch-revanced.apk)     | [All Architectures](../../releases/download/all/twitch-beta-revanced.apk)      |
+| [Arm64-v8a](../../releases/download/all/twitch-arm64-v8a-revanced.apk)   | [Arm64-v8a](../../releases/download/all/twitch-arm64-v8a-beta-revanced.apk )   |
 
 ---
 
@@ -358,6 +369,16 @@ Web version:
 
 ---
 
+### [Proton mail:](https://play.google.com/store/apps/details?id=ch.protonmail.android)
+
+### [Revanced:](https://github.com/revanced/revanced-patches)
+
+| Stable version                                                              | Beta version                                                                    |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| [All Architectures](../../releases/download/all/protonmail-revanced.apk)    | [All Architectures](../../releases/download/all/protonmail-beta-revanced.apk)   |
+
+---
+
 ### [RAR:](https://play.google.com/store/apps/details?id=com.rarlab.rar)
 
 ### [Revanced:](https://github.com/revanced/revanced-patches)
@@ -395,6 +416,34 @@ Web version:
 [All Architectures](../../releases/download/all/bilibili-BiliRoamingM.apk )
 
 [Arm64-v8a](../../releases/download/all/bilibili-arm64-v8a-BiliRoamingM.apk )
+
+---
+
+### [![Prime Video](https://img.shields.io/badge/Amazon%20Prime-0F79AF?style=for-the-badge&logo=amazonprime&logoColor=white)](https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient)
+
+### [Revanced:](https://github.com/revanced/revanced-patches)
+
+| Stable version                                                                | Beta version                                                                       |
+| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | 
+| [Arm64-v8a](../../releases/download/all/prime-video-arm64-v8a-revanced.apk)   | [Arm64-v8a](../../releases/download/all/prime-video-beta-arm64-v8a-revanced.apk)   |
+
+---
+
+[![Crunchyroll](https://img.shields.io/badge/Crunchyroll-F47521?style=for-the-badge&logo=crunchyroll&logoColor=white)](https://play.google.com/store/apps/details?id=com.crunchyroll.crunchyroid)
+
+### [Revanced:](https://github.com/revanced/revanced-patches)
+
+| Stable version                                                            | Beta version                                                                  |
+| ------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | 
+| [All Architectures](../../releases/download/all/crunchyroll-revanced.apk) | [All Architectures](../../releases/download/all/crunchyroll-beta-revanced.apk)|
+
+---
+
+### [Solid Explorer File Manager](https://play.google.com/store/apps/details?id=pl.solidexplorer2)
+
+### [scrazzz](https://github.com/scrazzz/my-revanced-patches)
+
+[Arm64-v8a](../../releases/download/all/solid-explorer-arm64-v8a-scrazzz.apk )
 
 ---
 
@@ -504,6 +553,13 @@ Web version:
   <summary>Aunali321</summary>
 
 [Patches](https://github.com/Aunali321/ReVancedExperiments) - [GPL-3.0](https://github.com/Aunali321/ReVancedExperiments/blob/main/LICENSE)
+
+</details>
+
+<details>
+  <summary>scrazzz</summary>
+
+[Patches](https://github.com/scrazzz/my-revanced-patches) - [GPL-3.0](https://github.com/scrazzz/my-revanced-patches/blob/main/LICENSE)
 
 </details>
 
