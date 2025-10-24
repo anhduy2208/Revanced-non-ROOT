@@ -5,25 +5,17 @@ They are open-source scripts for patching various apps like YouTube, YouTube Mus
 </h4>
 <div align="center">
   
-[![Image of https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root](https://github.com/FiorenMas/View-Counter/blob/main/repos/Revanced-And-Revanced-Extended-Non-Root_609906498/svg/count.svg)](https://github.com/FiorenMas/View-Counter)
-[![Image of https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root/actions](https://img.shields.io/github/actions/workflow/status/fiorenmas/Revanced-And-Revanced-Extended-Non-Root/ci.yml)](https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root/actions)
-[![](https://img.shields.io/badge/Telegram-2CA5E0)](https://t.me/fiorenmas)
-  
 </div>
 
 ---
 
-> [!NOTE]
-> ## Backup Telegram channel: 
-> ### [https://t.me/fiorenmas](https://t.me/fiorenmas)
-
-## ⚙️ How does this repository work?<img src="../main/docs/image/Readme.png" align="right" />
+## ⚙️ How does this repository work?<img src="../master/docs/image/Readme.png" align="right" />
 Simply, all you need to do is choose the app you want to use from the options below: 'Revanced' or 'Revanced Extended'. Then, select your phone's CPU architecture. If you don't know what your phone's CPU architecture is, choose All Architectures. That's all there is to it.
 
 > [!NOTE]
 > If you want to use the YouTube, YouTube Music or Google Photos app, you need to download and install [MicroG](https://github.com/ReVanced/GmsCore/releases).
 > 
-> If you are an advanced user and you want to use custom patches for patching apps, you should read the [Wiki](../main/docs/Frequently%20Asked%20Questions.md#q-how-do-i-use-this-repository-for-patching-my-own-app).
+> If you are an advanced user and you want to use custom patches for patching apps, you should read the [Wiki](../master/docs/Frequently%20Asked%20Questions.md#q-how-do-i-use-this-repository-for-patching-my-own-app).
 > 
 > This repository is not like any other repository. It does not create new releases; it only releases new files.
 > 
