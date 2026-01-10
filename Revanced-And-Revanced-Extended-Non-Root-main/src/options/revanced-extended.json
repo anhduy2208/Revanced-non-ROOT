@@ -1,7 +1,0 @@
-[{
-  "patchName" : "Spoof streaming data",
-  "options" : [ {
-    "key" : "useMobileWebClient",
-    "value" : true
-  } ]
-}]
