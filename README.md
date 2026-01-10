@@ -110,7 +110,7 @@ Download
 
 ### [YouTube](https://play.google.com/store/apps/details?id=com.google.android.youtube)
 
-### [Morphe:](https://github.com/MorpheApp/morphe-patches)
+### [Morphe:](https://github.com/MorpheApp/morphe-patches) Lỗi cmnr chưa FIX !!!
 
 | [Stable version](https://github.com/MorpheApp/morphe-patches/releases/latest)| [Beta version](https://github.com/MorpheApp/morphe-patches/releases)           |
 | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
@@ -217,7 +217,7 @@ Download
 
 ### [YouTube Music](https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music)
 
-### [Morphe:](https://github.com/MorpheApp/morphe-patches)
+### [Morphe:](https://github.com/MorpheApp/morphe-patches) Lỗi cmnr chưa FIX !!!
 
 | [Stable version](https://github.com/MorpheApp/morphe-patches/releases/latest)  | [Beta version](https://github.com/MorpheApp/morphe-patches/releases)                |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
