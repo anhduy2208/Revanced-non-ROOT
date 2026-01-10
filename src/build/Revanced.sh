@@ -34,12 +34,15 @@ revanced_dl(){
 	# Patch Messenger:
 	# Arm64-v8a
 	get_patches_key "messenger"
-	get_apkpure "com.facebook.orca" "messenger-arm64-v8a" "facebook-messenger/com.facebook.orca"
+	url="https://facebook-messenger.en.uptodown.com/android/download"
+	url="https://dw.uptodown.com/dwn/$(req "$url" - | $pup -p --charset utf-8 'button#detail-download-button attr{data-url}')"
+	req "$url" "messenger-arm64-v8a.apk"
 	patch "messenger-arm64-v8a" "revanced"
 	# Patch Facebook:
 	# Arm64-v8a
 	get_patches_key "facebook"
- 	get_apkpure "com.facebook.katana" "facebook-arm64-v8a" "facebook/com.facebook.katana"
+	url="https://d.apkpure.com/b/APK/com.facebook.katana?versionCode=457020009"
+	req "$url" "facebook-arm64-v8a.apk"
 	patch "facebook-arm64-v8a" "revanced"
 }
 3() {
@@ -50,20 +53,20 @@ revanced_dl(){
 	get_apk "com.google.android.apps.photos" "gg-photos-arm64-v8a" "photos" "google-inc/photos/google-photos" "arm64-v8a" "nodpi"
 	patch "gg-photos-arm64-v8a" "revanced"
 	# Armeabi-v7a
-	get_patches_key "gg-photos"
- 	version="7.32.0.765953717"
-	get_apk "com.google.android.apps.photos" "gg-photos-armeabi-v7a" "photos" "google-inc/photos/google-photos" "armeabi-v7a" "nodpi"
-	patch "gg-photos-armeabi-v7a" "revanced"
+	#get_patches_key "gg-photos"
+ 	#version="7.32.0.765953717"
+	#get_apk "com.google.android.apps.photos" "gg-photos-armeabi-v7a" "photos" "google-inc/photos/google-photos" "armeabi-v7a" "nodpi"
+	#patch "gg-photos-armeabi-v7a" "revanced"
 	# x86
-	get_patches_key "gg-photos"
- 	version="7.32.0.765953717"
-	get_apk "com.google.android.apps.photos" "gg-photos-x86" "photos" "google-inc/photos/google-photos" "x86" "nodpi"
-	patch "gg-photos-x86" "revanced"
+	#get_patches_key "gg-photos"
+ 	#version="7.32.0.765953717"
+	#get_apk "com.google.android.apps.photos" "gg-photos-x86" "photos" "google-inc/photos/google-photos" "x86" "nodpi"
+	#patch "gg-photos-x86" "revanced"
 	# x86_64
-	get_patches_key "gg-photos"
- 	version="7.32.0.765953717"
-	get_apk "com.google.android.apps.photos" "gg-photos-x86_64" "photos" "google-inc/photos/google-photos" "x86_64" "nodpi"
-	patch "gg-photos-x86_64" "revanced"
+	#get_patches_key "gg-photos"
+ 	#version="7.32.0.765953717"
+	#get_apk "com.google.android.apps.photos" "gg-photos-x86_64" "photos" "google-inc/photos/google-photos" "x86_64" "nodpi"
+	#patch "gg-photos-x86_64" "revanced"
 }
 4() {
 	revanced_dl
@@ -99,7 +102,7 @@ revanced_dl(){
 	revanced_dl
 	# Patch Tumblr:
 	get_patches_key "tumblr"
-	get_apk "com.tumblr" "tumblr" "tumblr" "tumblr-inc/tumblr/tumblr-social-media-fandom" "Bundle_extract"
+	get_apk "com.tumblr" "tumblr" "tumblr" "tumblr-inc/tumblr/tumblr-social-media-art" "Bundle_extract"
 	split_editor "tumblr" "tumblr"
 	patch "tumblr" "revanced"
 	# Patch Tumblr Arm64-v8a:
@@ -214,11 +217,45 @@ revanced_dl(){
 	revanced_dl
 	# Patch Crunchyroll
 	get_patches_key "Crunchyroll-revanced"
-	url="https://crunchyroll.en.uptodown.com/android/download/1109023537-x" #Use uptodown because apkmirror always ask pass Cloudflare on this app
+	url="https://crunchyroll.en.uptodown.com/android/download/1133091557-x" #Use uptodown because apkmirror always ask pass Cloudflare on this app
 	url="https://dw.uptodown.com/dwn/$(req "$url" - | $pup -p --charset utf-8 'button#detail-download-button attr{data-url}')"
 	req "$url" "crunchyroll"
 	split_editor "crunchyroll" "crunchyroll"
 	patch "crunchyroll" "revanced"
+	# Patch Viber
+	get_patches_key "Viber-revanced"
+	get_apk "com.viber.voip" "viber" "viber" "viber-media-s-a-r-l/viber/rakuten-viber-messenger"
+	patch "viber" "revanced"
+}
+15() {
+	revanced_dl
+	# Patch Reddit
+	get_patches_key "reddit"
+	get_apk "com.reddit.frontpage" "reddit" "reddit" "redditinc/reddit/reddit" "Bundle_extract"
+	split_editor "reddit" "reddit"
+	patch "reddit" "revanced"
+	# Patch Arm64-v8a:
+	split_editor "reddit" "reddit-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86_64 split_config.mdpi split_config.ldpi split_config.hdpi split_config.xhdpi split_config.xxhdpi split_config.tvdpi"
+	get_patches_key "reddit"
+	patch "reddit-arm64-v8a" "revanced"
+	# Patch Disney+
+	get_patches_key "Disney"
+	version="4.20.2+rc1-2025.12.09"
+	get_apk "com.disney.disneyplus" "disney" "disney" "disney/disney/disney" "Bundle"
+	patch "disney" "revanced"
+}
+16() {
+	revanced_dl
+	# Patch ProtonVPN
+	get_patches_key "ProtonVPN"
+	get_apk "ch.protonvpn.android" "protonvpn" "protonvpn-free-vpn-secure-unlimited-fdroid-version" "proton-technologies-ag/protonvpn-free-vpn-secure-unlimited-fdroid-version/protonvpn-fast-secure-vpn-f-droid-version"
+	patch "protonvpn" "revanced"
+	# Patch MyFitnessPal
+	get_patches_key "MyFitnessPal"
+ 	url="https://calorie-counter-myfitnesspal.en.uptodown.com/android/download/1010004885" #Use uptodown because apkmirror always ask pass Cloudflare on this app
+	url="https://dw.uptodown.com/dwn/$(req "$url" - | $pup -p --charset utf-8 'button#detail-download-button attr{data-url}')"
+	req "$url" "MyFitnessPal.apk"
+	patch "MyFitnessPal" "revanced"
 }
 case "$1" in
     1)
@@ -262,5 +299,11 @@ case "$1" in
         ;;
     14)
         14
+        ;;
+    15)
+        15
+        ;;
+    16)
+        16
         ;;
 esac

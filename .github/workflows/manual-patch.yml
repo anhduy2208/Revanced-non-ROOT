@@ -11,13 +11,16 @@ on:
       org:
         description: 'Which "Revanced" do you want to patch?'
         required: true
-        default: 'Revanced'
+        default: 'Morphe'
         type: choice
         options:
+          - 'Morphe'
+          - 'Morphe Beta'
           - 'Revanced'
           - 'Revanced Beta'
           - 'Revanced Extended'
           - 'Revanced Extended Beta'
+          - 'Revanced Extended Arsclib'
           - 'RVE-anddea-stable'
           - 'RVE-anddea-beta'
           - 'Twitter Piko Stable'
@@ -39,8 +42,9 @@ jobs:
     if: ${{ github.event.inputs.org == 'Revanced' || inputs.org == 'Revanced' }}
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
-        run: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+        run: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.2
@@ -62,8 +66,9 @@ jobs:
     if: ${{ github.event.inputs.org == 'Revanced Beta' || inputs.org == 'Revanced Beta' }}
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
-        run: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+        run: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.2
@@ -79,6 +84,54 @@ jobs:
       - name: Releasing APK files
         id: release-rvb
         if: steps.check-gh-rvb.outputs.internet_error == '0'
+        uses: ./.github/actions/release
+  patch_morphe:
+    name: Patch Morphe
+    if: ${{ github.event.inputs.org == 'Morphe' || inputs.org == 'Morphe' }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        run: [1, 2, 3]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+      - name: Preparing to patch
+        uses: ./.github/actions/preparing
+      - name: Check github connection
+        id: check-gh-morphe
+        run: bash src/etc/connection.sh
+      - name: Patch apk
+        id: patch-morphe
+        if: steps.check-gh-morphe.outputs.internet_error == '0'
+        run: bash src/build/morphe.sh ${{ matrix.run }}
+      - name: Releasing APK files
+        id: release-morphe
+        if: steps.check-gh-morphe.outputs.internet_error == '0'
+        uses: ./.github/actions/release
+  patch_morphe_beta:
+    name: Patch Morphe Beta
+    if: ${{ github.event.inputs.org == 'Morphe Beta' || inputs.org == 'Morphe Beta' }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        run: [1, 2, 3]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+      - name: Preparing to patch
+        uses: ./.github/actions/preparing
+      - name: Check github connection
+        id: check-gh-morphe-beta
+        run: bash src/etc/connection.sh
+      - name: Patch apk
+        id: patch-morphe-beta
+        if: steps.check-gh-morphe-beta.outputs.internet_error == '0'
+        run: bash src/build/morphe-beta.sh ${{ matrix.run }}
+      - name: Releasing APK files
+        id: release-morphe-beta
+        if: steps.check-gh-morphe-beta.outputs.internet_error == '0'
         uses: ./.github/actions/release
   patch_rve_anddea_stable:
     name: Patch RVX Anddea Stable
@@ -251,6 +304,26 @@ jobs:
           name: Cache_rve_beta
           path: ./release
       - name: Releasing APK files
+        uses: ./.github/actions/release
+  patch_rve_arsclib:
+    name: Patch Revanced Extended Arsclib
+    if: ${{ github.event.inputs.org == 'Revanced Extended Arsclib' || inputs.org == 'Revanced Extended Arsclib' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+      - name: Preparing to patch
+        uses: ./.github/actions/preparing
+      - name: Check github connection
+        id: check-gh-rve-arsclib
+        run: bash src/etc/connection.sh
+      - name: Patch apk
+        id: patch-rve-arsclib
+        if: steps.check-gh-rve-arsclib.outputs.internet_error == '0'
+        run: bash src/build/Revanced-Extended-Arsclib.sh
+      - name: Releasing APK files
+        id: release-rve-arsclib
+        if: steps.check-gh-rve-arsclib.outputs.internet_error == '0'
         uses: ./.github/actions/release
   patch_twitter_piko_stable:
     name: Patch Twitter Piko Stable
