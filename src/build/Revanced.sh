@@ -34,19 +34,18 @@ revanced_dl(){
 	# Patch Messenger:
 	# Arm64-v8a
 	get_patches_key "messenger"
-	url="https://facebook-messenger.en.uptodown.com/android/download"
-	url="https://dw.uptodown.com/dwn/$(req "$url" - | $pup -p --charset utf-8 'button#detail-download-button attr{data-url}')"
-	req "$url" "messenger-arm64-v8a.apk"
+	get_apkpure "com.facebook.orca" "messenger-arm64-v8a" "facebook-messenger/com.facebook.orca"
 	patch "messenger-arm64-v8a" "revanced"
 	# Patch Facebook:
 	# Arm64-v8a
 	get_patches_key "facebook"
-	url="https://d.apkpure.com/b/APK/com.facebook.katana?versionCode=457020009"
+	url="https://d.apkpure.com/b/APK/com.facebook.katana?versionCode=457020014"
 	req "$url" "facebook-arm64-v8a.apk"
 	patch "facebook-arm64-v8a" "revanced"
 }
 3() {
-	revanced_dl
+	dl_gh "revanced-cli" "revanced" "v5.0.1"
+	dl_gh "revanced-patches" "revanced" "v5.48.0" #https://github.com/ReVanced/revanced-patches/issues/6593
 	# Patch Google photos:
 	# Arm64-v8a
 	get_patches_key "gg-photos"
@@ -102,7 +101,7 @@ revanced_dl(){
 	revanced_dl
 	# Patch Tumblr:
 	get_patches_key "tumblr"
-	get_apk "com.tumblr" "tumblr" "tumblr" "tumblr-inc/tumblr/tumblr-social-media-art" "Bundle_extract"
+	get_apk "com.tumblr" "tumblr" "tumblr" "tumblr-inc/tumblr/tumblr-social-media-art-blog" "Bundle_extract"
 	split_editor "tumblr" "tumblr"
 	patch "tumblr" "revanced"
 	# Patch Tumblr Arm64-v8a:
@@ -127,7 +126,7 @@ revanced_dl(){
 	patch "rar" "revanced"
 	# Patch Lightroom:
 	get_patches_key "lightroom"
- 	url="https://adobe-lightroom-mobile.en.uptodown.com/android/download/1033600808" #Use uptodown because apkmirror always ask pass Cloudflare on this app
+ 	url="https://adobe-lightroom-mobile.en.uptodown.com/android/download/1033600808-x" #Use uptodown because apkmirror always ask pass Cloudflare on this app
 	url="https://dw.uptodown.com/dwn/$(req "$url" - | $pup -p --charset utf-8 'button#detail-download-button attr{data-url}')"
 	req "$url" "lightroom.apk"
 	patch "lightroom" "revanced"
@@ -186,16 +185,11 @@ revanced_dl(){
 	patch "photomath" "revanced"
 	# Patch Strava:
 	get_patches_key "strava"
-	get_apkpure "com.strava" "strava-arm64-v8a" "strava-run-hike-2025-health/com.strava" "Bundle"
+	get_apkpure "com.strava" "strava-arm64-v8a" "strava-run-hike-android-exercise-laugh/com.strava" "Bundle"
 	patch "strava-arm64-v8a" "revanced"
 }
 12() {
 	revanced_dl
-	# Patch Spotjfy Arm64-v8a
-	j="i"
-	get_patches_key "Spotjfy-revanced"
-	get_apkpure "com.spot"$j"fy.music" "spotjfy-arm64-v8a" "spot"$j"fy-music-and-podcasts-for-android/com.spot"$j"fy.music"
-	patch "spotjfy-arm64-v8a" "revanced"
 	# Patch Proton mail
 	get_patches_key "protonmail-revanced"
 	get_apk "ch.protonmail.android" "protonmail" "protonmail-encrypted-email" "proton-technologies-ag/protonmail-encrypted-email/proton-mail-encrypted-email"
@@ -207,21 +201,9 @@ revanced_dl(){
 	get_patches_key "Threads-revanced"
 	get_apkpure "com.instagram.barcelona" "threads-arm64-v8a" "threads/com.instagram.barcelona" "Bundle"
 	patch "threads-arm64-v8a" "revanced"
-	# Patch Prime Video
-	get_patches_key "Prime-Video-revanced"
-	version="3.0.412"
-	get_apk " com.amazon.avod.thirdpartyclient" "prime-video-arm64-v8a" "amazon-prime-video" "amazon-mobile-llc/amazon-prime-video/amazon-prime-video" "arm64-v8a"
-	patch "prime-video-arm64-v8a" "revanced"
 }
 14() {
 	revanced_dl
-	# Patch Crunchyroll
-	get_patches_key "Crunchyroll-revanced"
-	url="https://crunchyroll.en.uptodown.com/android/download/1133091557-x" #Use uptodown because apkmirror always ask pass Cloudflare on this app
-	url="https://dw.uptodown.com/dwn/$(req "$url" - | $pup -p --charset utf-8 'button#detail-download-button attr{data-url}')"
-	req "$url" "crunchyroll"
-	split_editor "crunchyroll" "crunchyroll"
-	patch "crunchyroll" "revanced"
 	# Patch Viber
 	get_patches_key "Viber-revanced"
 	get_apk "com.viber.voip" "viber" "viber" "viber-media-s-a-r-l/viber/rakuten-viber-messenger"
@@ -238,11 +220,6 @@ revanced_dl(){
 	split_editor "reddit" "reddit-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86_64 split_config.mdpi split_config.ldpi split_config.hdpi split_config.xhdpi split_config.xxhdpi split_config.tvdpi"
 	get_patches_key "reddit"
 	patch "reddit-arm64-v8a" "revanced"
-	# Patch Disney+
-	get_patches_key "Disney"
-	version="4.20.2+rc1-2025.12.09"
-	get_apk "com.disney.disneyplus" "disney" "disney" "disney/disney/disney" "Bundle"
-	patch "disney" "revanced"
 }
 16() {
 	revanced_dl

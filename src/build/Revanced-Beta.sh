@@ -4,7 +4,7 @@ source ./src/build/utils.sh
 # Download requirements
 revanced_dl(){
 	dl_gh "revanced-patches" "revanced" "prerelease"
- 	dl_gh "revanced-cli" "revanced" "latest"
+ 	dl_gh "revanced-cli" "revanced" "prerelease"
 }
 1() {
 	revanced_dl
@@ -35,14 +35,12 @@ revanced_dl(){
 	# Patch Messenger:
 	# Arm64-v8a
 	get_patches_key "messenger"
-	url="https://facebook-messenger.en.uptodown.com/android/download"
-	url="https://dw.uptodown.com/dwn/$(req "$url" - | $pup -p --charset utf-8 'button#detail-download-button attr{data-url}')"
-	req "$url" "messenger-arm64-v8a-beta.apk"
+	get_apkpure "com.facebook.orca" "messenger-arm64-v8a-beta" "facebook-messenger/com.facebook.orca"
 	patch "messenger-arm64-v8a-beta" "revanced"
 	# Patch Facebook:
 	# Arm64-v8a
 	get_patches_key "facebook"
-	url="https://d.apkpure.com/b/APK/com.facebook.katana?versionCode=457020009"
+	url="https://d.apkpure.com/b/APK/com.facebook.katana?versionCode=457020014"
 	req "$url" "facebook-arm64-v8a-beta.apk"
 	patch "facebook-arm64-v8a-beta" "revanced"
 }
@@ -100,7 +98,7 @@ revanced_dl(){
 	revanced_dl
 	# Patch Tumblr:
 	get_patches_key "tumblr"
-	get_apk "com.tumblr" "tumblr-beta" "tumblr" "tumblr-inc/tumblr/tumblr-social-media-art" "Bundle_extract"
+	get_apk "com.tumblr" "tumblr-beta" "tumblr" "tumblr-inc/tumblr/tumblr-social-media-art-blog" "Bundle_extract"
 	split_editor "tumblr-beta" "tumblr-beta"
 	patch "tumblr-beta" "revanced"
 	# Patch Tumblr Arm64-v8a:
@@ -109,7 +107,7 @@ revanced_dl(){
 	patch "tumblr-arm64-v8a-beta" "revanced"
 	# Patch SoundCloud:
 	get_patches_key "soundcloud"
-	get_apk "com.soundcloud.android" "soundcloud-beta" "soundcloud-soundcloud" "soundcloud/soundcloud-soundcloud/soundcloud-play-music-songs" "Bundle_extract"
+	get_apk "com.soundcloud.android" "soundcloud-beta" "soundcloud-soundcloud" "soundcloud/soundcloud-soundcloud/soundcloud-the-music-you-love" "Bundle_extract"
 	split_editor "soundcloud-beta" "soundcloud-beta"
 	patch "soundcloud-beta" "revanced"
 	# Patch SoundCloud Arm64-v8a:
@@ -121,7 +119,7 @@ revanced_dl(){
 	revanced_dl
 	# Patch Lightroom:
 	get_patches_key "lightroom"
- 	url="https://adobe-lightroom-mobile.en.uptodown.com/android/download/1033600808" #Use uptodown because apkmirror always ask pass Cloudflare on this app
+ 	url="https://adobe-lightroom-mobile.en.uptodown.com/android/download/1033600808-x" #Use uptodown because apkmirror always ask pass Cloudflare on this app
 	url="https://dw.uptodown.com/dwn/$(req "$url" - | $pup -p --charset utf-8 'button#detail-download-button attr{data-url}')"
 	req "$url" "lightroom-beta.apk"
 	patch "lightroom-beta" "revanced"
@@ -171,7 +169,7 @@ revanced_dl(){
 	patch "duolingo-beta" "revanced"
 	# Patch Google News Arm64-v8a
 	get_patches_key "GoogleNews"
-	get_apk "com.google.android.apps.magazines" "googlenews-beta" "google-news" "google-inc/google-news/google-news" "Bundle_extract"
+	get_apk "com.google.android.apps.magazines" "googlenews-beta" "google-news" "google-inc/google-news/google-news-daily-headlines" "Bundle_extract"
 	split_editor "googlenews-beta" "googlenews-beta-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86 split_config.x86_64"
 	patch "googlenews-beta-arm64-v8a" "revanced"
 }
@@ -184,16 +182,11 @@ revanced_dl(){
 	patch "photomath-beta" "revanced"
 	# Patch Strava:
 	get_patches_key "strava"
-	get_apkpure "com.strava" "strava-beta-arm64-v8a" "strava-run-hike-2025-health/com.strava" "Bundle"
+	get_apkpure "com.strava" "strava-beta-arm64-v8a" "strava-run-hike-android-exercise-laugh/com.strava" "Bundle"
 	patch "strava-beta-arm64-v8a" "revanced"
 }
 12() {
 	revanced_dl
-	# Patch Spotjfy Arm64-v8a
-	j="i"
-	get_patches_key "Spotjfy-revanced"
-	get_apkpure "com.spot"$j"fy.music" "spotjfy-beta-arm64-v8a" "spot"$j"fy-music-and-podcasts-for-android/com.spot"$j"fy.music"
-	patch "spotjfy-beta-arm64-v8a" "revanced"
 	# Patch Proton mail
 	get_patches_key "protonmail-revanced"
 	get_apkpure "ch.protonmail.android" "protonmail-beta" "proton-mail-encrypted-email/ch.protonmail.android"
@@ -205,21 +198,9 @@ revanced_dl(){
 	get_patches_key "Threads-revanced"
 	get_apkpure "com.instagram.barcelona" "threads-beta-arm64-v8a" "threads/com.instagram.barcelona" "Bundle"
 	patch "threads-beta-arm64-v8a" "revanced"
-	# Patch Prime Video
-	get_patches_key "Prime-Video-revanced"
-	version="3.0.412"
-	get_apk " com.amazon.avod.thirdpartyclient" "prime-video-beta-arm64-v8a" "amazon-prime-video" "amazon-mobile-llc/amazon-prime-video/amazon-prime-video" "arm64-v8a"
-	patch "prime-video-beta-arm64-v8a" "revanced"
 }
 14() {
 	revanced_dl
-	# Patch Crunchyroll
-	get_patches_key "Crunchyroll-revanced"
-	url="https://crunchyroll.en.uptodown.com/android/download/1133091557-x" #Use uptodown because apkmirror always ask pass Cloudflare on this app
-	url="https://dw.uptodown.com/dwn/$(req "$url" - | $pup -p --charset utf-8 'button#detail-download-button attr{data-url}')"
-	req "$url" "crunchyroll-beta"
-	split_editor "crunchyroll-beta" "crunchyroll-beta"
-	patch "crunchyroll-beta" "revanced"
 	# Patch Viber
 	get_patches_key "Viber-revanced"
 	get_apk "com.viber.voip" "viber-beta" "viber" "viber-media-s-a-r-l/viber/rakuten-viber-messenger"
